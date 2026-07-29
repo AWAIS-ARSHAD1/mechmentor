@@ -1,0 +1,242 @@
+[
+  {
+    "id": "EP-001",
+    "topic": "Explain centrifugal pump cavitation",
+    "scenario": "To a non-technical plant manager who needs to approve a $50k upgrade",
+    "timeLimit": 45,
+    "keyPoints": ["Boiling of fluid at low pressure", "Bubble collapse causes damage", "Lost efficiency and potential failure", "Upgrade prevents costly downtime"],
+    "samplePitch": "Right now, the pressure at the inlet of our main cooling pump is dropping so low that the water is actually boiling at room temperature. When those bubbles hit the high-pressure side of the pump, they collapse with enough force to eat away solid metal. That’s what’s causing the horrible rattling noise and the drop in flow. If we don’t approve this $50k upgrade to raise the inlet tank and increase the pipe diameter, the pump impeller will disintegrate within a month, causing a catastrophic failure that will shut down the entire line and cost us upwards of $300k in lost production."
+  },
+  {
+    "id": "EP-002",
+    "topic": "Justify replacing a bronze bearing with a roller bearing",
+    "scenario": "To a senior mechanical engineer who prefers legacy designs",
+    "timeLimit": 45,
+    "keyPoints": ["Higher load capacity", "Lower starting friction", "Reduced maintenance frequency", "Long-term cost savings"],
+    "samplePitch": "I understand the historical reliability of the bronze journal bearings here, but our new throughput targets have doubled the radial load on this shaft. The current bronze bearings will require continuous lubrication and still run a risk of overheating at startup due to high static friction. By switching to a spherical roller bearing, we can handle the shaft deflection and the higher radial loads simultaneously. It reduces the parasitic torque at startup by 80%, cuts maintenance intervals in half, and despite the higher initial cost, the ROI based on reduced downtime is less than six months."
+  },
+  {
+    "id": "EP-003",
+    "topic": "Defend a switch to 3D printed (Additive) tooling",
+    "scenario": "To the CFO",
+    "timeLimit": 45,
+    "keyPoints": ["Lower lead times", "Reduced inventory costs", "Design iteration speed", "Material properties are sufficient"],
+    "samplePitch": "Currently, we wait six weeks and pay $4,000 for every custom aluminum jig machined overseas. By bringing a continuous carbon-fiber 3D printer in-house, we can print these same jigs in 24 hours for about $150 in material. While the printer itself is a $20k capital expense, we spend that much on tooling lead-time delays in a single quarter. The printed parts are structurally validated to hold our specific assembly loads, and we can iterate designs instantly without paying for new tooling every time."
+  },
+  {
+    "id": "EP-004",
+    "topic": "Explain FEA (Finite Element Analysis) results showing potential failure",
+    "scenario": "To the VP of Product who wants to launch next week",
+    "timeLimit": 45,
+    "keyPoints": ["Stress concentration", "Fatigue life", "Safety factor below 1", "Proposed quick fix"],
+    "samplePitch": "I know we’re pushing for launch next week, but my recent simulations show a critical issue in the chassis bracket. There’s a sharp internal corner acting as a stress concentration, driving our safety factor down to 0.8 under maximum expected dynamic loading. This means it will yield and likely fracture within a few months of customer use. I've already drafted a revised CAD model adding a 5mm fillet and increasing the web thickness. It barely changes the weight and adds only two days to machining time. We must make this change now to prevent massive warranty recalls."
+  },
+  {
+    "id": "EP-005",
+    "topic": "Explain the need for PID tuning on a heating loop",
+    "scenario": "To a production supervisor complaining about inconsistent product quality",
+    "timeLimit": 45,
+    "keyPoints": ["Overshoot", "Settling time", "Proportional vs Integral action", "Consistent temperature"],
+    "samplePitch": "The reason our plastic parts have varying strengths is because the heater temperature is oscillating. Right now, the controller is overreacting—it blasts heat, overshoots the target, then shuts off completely, causing a dip. I need two hours of downtime to tune the PID controller. By adjusting the proportional band and adding the right integral action, the system will anticipate the target and settle exactly at 200 degrees without bouncing around. It's a one-time software fix that will instantly stabilize your yield rate."
+  },
+  {
+    "id": "EP-006",
+    "topic": "Pitch moving from pneumatics to electromechanical actuators",
+    "scenario": "To the maintenance manager",
+    "timeLimit": 45,
+    "keyPoints": ["Energy efficiency", "Position control", "Reduced noise", "Eliminate air leaks"],
+    "samplePitch": "I want to replace the pneumatic cylinders on the packaging line with electromechanical actuators. I know your team is comfortable with air, but compressor leaks are costing us thousands in wasted electricity, and we can't easily change the stroke length when product sizes change. Electric actuators give us infinitely programmable positions and precise speed control. Plus, we'll get rid of the hissing noise and the constant replacing of worn seals. The maintenance will shift from emergency leak-chasing to predictable, scheduled greasing."
+  },
+  {
+    "id": "EP-007",
+    "topic": "Explain the importance of GD&T (Geometric Dimensioning and Tolerancing)",
+    "scenario": "To a purchasing agent who wants to use a cheaper supplier",
+    "timeLimit": 45,
+    "keyPoints": ["Functional fit", "Tolerance stack-up", "Scrap rate", "Supplier capability"],
+    "samplePitch": "The cheaper supplier you found is quoting based on standard plus-or-minus dimensions, but they are ignoring the GD&T profile and true position callouts on our drawings. These aren't just suggestions; they guarantee that the 50 pins on this connector will align with the mating board. Without controlling the parallelism and position of those features, the parts might measure 'in spec' with calipers but still won't assemble. We'd save 10% on piece price but lose 30% to scrap and assembly rework. We must stick with the supplier who actually has the CMM equipment to verify these callouts."
+  },
+  {
+    "id": "EP-008",
+    "topic": "Explain why we must use a more expensive alloy (e.g., Inconel)",
+    "scenario": "To a project manager concerned about budget",
+    "timeLimit": 45,
+    "keyPoints": ["High temperature creep", "Corrosion resistance", "Lifecycle cost", "Failure consequences"],
+    "samplePitch": "I know switching to Inconel 718 blows the immediate material budget by 40%, but the exhaust manifold sees continuous temperatures above 600C. The current 304 stainless steel will suffer from creep—basically stretching slowly under load—and will eventually crack from thermal cycling. Inconel retains its yield strength at those extreme temperatures. If we don't upgrade, we'll be replacing these manifolds every six months out in the field, which will cost us ten times the initial material premium in labor and reputation."
+  },
+  {
+    "id": "EP-009",
+    "topic": "Propose a design of experiments (DOE) to find root cause",
+    "scenario": "To the engineering director who wants an immediate 'best guess' fix",
+    "timeLimit": 45,
+    "keyPoints": ["Multiple variables", "Interactions", "Data-driven", "Prevent guessing"],
+    "samplePitch": "We’ve been chasing this vibration issue for weeks by changing one thing at a time: speed, pressure, and tooling. None of it works because the issue is an interaction between variables. I need to run a structured Design of Experiments (DOE). It will take two days of dedicated machine time to run 16 specific combinations. This isn't delaying the fix; it's the fastest path to it. It will definitively map out how temperature interacts with speed to cause the resonance, giving us the exact parameter window to operate safely."
+  },
+  {
+    "id": "EP-010",
+    "topic": "Explain why a part failed in fatigue despite normal stresses",
+    "scenario": "To a customer who experienced the failure",
+    "timeLimit": 45,
+    "keyPoints": ["Cyclic loading", "Micro-cracks", "Endurance limit", "Redesign strategy"],
+    "samplePitch": "We've analyzed the broken shaft, and while the maximum load you applied was well within the safety limits, it failed due to high-cycle fatigue. Think of bending a paperclip back and forth; it doesn't take much force, but eventually, it snaps. The millions of tiny vibrations over the last three years initiated a microscopic crack at this keyway, which slowly grew until the remaining metal couldn't handle the normal load. We are redesigning the replacement with a larger fillet radius to lower the stress concentration and using a shot-peening process to prevent surface cracks from forming."
+  },
+  {
+    "id": "EP-011",
+    "topic": "Defend the need for a structural enclosure instead of a sheet metal cover",
+    "scenario": "To an industrial designer",
+    "timeLimit": 45,
+    "keyPoints": ["Torsional rigidity", "Vibration isolation", "Thermal mass", "Safety"],
+    "samplePitch": "I love the sleek look of the thin sheet metal concept, but it fundamentally compromises the machine's performance. The internal optics require sub-millimeter stability. A thin skin won't provide the torsional rigidity we need; the frame will twist just from the building's floor vibrations. By moving to a cast aluminum or ribbed structural enclosure, we add the necessary stiffness and thermal mass to keep the internal temperature stable. We can still achieve your design aesthetic, but we need the housing to act as a structural exoskeleton, not just a dust cover."
+  },
+  {
+    "id": "EP-012",
+    "topic": "Explain thermal expansion to an assembly technician",
+    "scenario": "To a tech wondering why a bearing won't fit on a shaft",
+    "timeLimit": 45,
+    "keyPoints": ["Interference fit", "Heating/cooling", "Material properties", "Damage prevention"],
+    "samplePitch": "You can't hammer that bearing onto the shaft because it's designed with an interference fit—the hole is actually a tiny bit smaller than the shaft. If you force it, you'll gall the metal and ruin both parts. Instead, we use thermal expansion. We heat the bearing in this induction heater to 100 degrees Celsius, which causes the steel to expand and the hole to grow just enough to slip easily over the shaft. Once it cools down, it shrinks tight and locks perfectly in place without any setscrews."
+  },
+  {
+    "id": "EP-013",
+    "topic": "Pitch moving to a cloud-based CAD/PDM system",
+    "scenario": "To the IT Director",
+    "timeLimit": 45,
+    "keyPoints": ["Version control", "Collaboration", "Data loss prevention", "Reduced local hardware needs"],
+    "samplePitch": "Right now, engineers are saving CAD files on local drives with names like 'Final_v3_really_final'. We are one hard drive failure away from losing weeks of work, and two people can't work on the same assembly without overwriting each other. By moving to a cloud-based PDM system, we get automated version control, off-site backups, and concurrent engineering capabilities. Furthermore, since the heavy rendering and solving happen in the cloud, we won't need to buy $5,000 workstations for every new hire."
+  },
+  {
+    "id": "EP-014",
+    "topic": "Explain the concept of a safety factor",
+    "scenario": "To a marketing team wanting to claim a higher weight capacity",
+    "timeLimit": 45,
+    "keyPoints": ["Yield strength", "Unpredictable loads", "Liability", "Degradation over time"],
+    "samplePitch": "I understand the marketing appeal of rating this lift for 1,500 pounds, and yes, the metal technically won't yield until 1,600 pounds. But we design with a safety factor of 2.0. This accounts for unpredictable dynamic loads—like someone dropping a heavy crate onto it instead of placing it gently—as well as wear, corrosion, and slight manufacturing defects. If we raise the public rating to 1,500 pounds, the safety factor drops to 1.06. One sudden shock load will cause a catastrophic collapse, creating massive liability. We must keep the rating at 800 pounds."
+  },
+  {
+    "id": "EP-015",
+    "topic": "Justify investing in a strain gauge telemetry system",
+    "scenario": "To the VP of Engineering",
+    "timeLimit": 45,
+    "keyPoints": ["Real-world data", "Validation vs Simulation", "Preventing overdesign", "Warranty cost reduction"],
+    "samplePitch": "Our FEA models are good, but they rely on assumptions about the forces our tractors see in the field. We're overdesigning the chassis by 20% just to be safe, adding unnecessary weight and cost to every unit. By installing a wireless strain gauge telemetry system on our field prototypes for $15k, we can capture the actual dynamic stresses during real-world operation. Validating our models against this hard data will allow us to safely shave 50 pounds of steel off the final design, saving us $200 per unit in production."
+  },
+  {
+    "id": "EP-016",
+    "topic": "Explain why we can't just 'make the motor bigger'",
+    "scenario": "To a product manager asking for faster throughput",
+    "timeLimit": 45,
+    "keyPoints": ["Inertia", "Power transmission limits", "Heat dissipation", "System bottleneck"],
+    "samplePitch": "Dropping a larger 10-horsepower motor into the machine won't make the cycle run faster. The limitation isn't power; it's inertia and the mechanical limits of the drivetrain. If we accelerate the system faster, the dynamic loads will strip the gears in the transmission and snap the timing belts. Furthermore, the larger motor has more rotor inertia, meaning it takes more energy just to spin itself up. To actually increase throughput, we need to redesign the end-effector to be 30% lighter, which will allow our current motor to accelerate it much faster without breaking the drivetrain."
+  },
+  {
+    "id": "EP-017",
+    "topic": "Address a shaft misalignment issue causing vibration",
+    "scenario": "To a maintenance team during an outage",
+    "timeLimit": 45,
+    "keyPoints": ["Coupling strain", "Bearing wear", "Laser alignment", "Long-term fix"],
+    "samplePitch": "I know the flexible coupling between the motor and the pump looks okay, but flexible couplings are meant to handle minor dynamic flex, not to compensate for a half-inch of static misalignment. The motor sits too low, and it's forcing the shaft to bend on every revolution. That's why we're burning out the pump bearings every three months. We need to take an extra two hours right now to put the laser alignment tool on it and shim the motor base properly. If we get it within two thousandths of an inch now, those bearings will last five years."
+  },
+  {
+    "id": "EP-018",
+    "topic": "Propose shifting from preventative maintenance to predictive maintenance",
+    "scenario": "To the Plant Manager",
+    "timeLimit": 45,
+    "keyPoints": ["Condition monitoring", "Vibration sensors", "Avoiding unnecessary teardowns", "Uptime increase"],
+    "samplePitch": "Right now, we rebuild the main blowers every year on a schedule. Half the time, the bearings we replace are perfectly fine; the other half, they fail at month 10 and take the plant down anyway. By installing $5,000 worth of continuous vibration and acoustic emission sensors, we move to predictive maintenance. The system will alert us when a specific bearing actually begins to degrade, weeks before it fails. We stop wasting money tearing down healthy machines, and we completely eliminate surprise failures, boosting our overall uptime by at least 5%."
+  },
+  {
+    "id": "EP-019",
+    "topic": "Explain the necessity of a heat sink and thermal paste",
+    "scenario": "To an electrical engineer complaining about mechanical footprint",
+    "timeLimit": 45,
+    "keyPoints": ["Thermal resistance", "Junction temperature", "Surface roughness", "Component life"],
+    "samplePitch": "I know the heat sink takes up a lot of real estate on the board, but that IGBT module generates 50 watts of heat. Without the aluminum sink to increase the convective surface area, the junction temperature will exceed 150C in minutes and fry the chip. Furthermore, we must use thermal paste. Microscopic scratches on the metal surfaces trap insulating air. The paste fills those voids, drastically dropping the thermal resistance between the chip and the heat sink, ensuring the heat actually transfers away."
+  },
+  {
+    "id": "EP-020",
+    "topic": "Defend the choice of a planetary gearhead over a spur gear",
+    "scenario": "To a cost-conscious purchasing manager",
+    "timeLimit": 45,
+    "keyPoints": ["Torque density", "Load sharing", "Backlash", "Compactness"],
+    "samplePitch": "A standard spur gearbox is cheaper, but it transmits all the torque through a single gear tooth at a time. The robotic joint we are designing requires massive torque in a very tight space. The planetary gearhead distributes that same load across three or four planet gears simultaneously. This gives us three times the torque density, significantly lower backlash for precise positioning, and fits inside the 50mm diameter constraint of the robotic arm. The cheaper gearbox simply won't physically fit without breaking under load."
+  },
+  {
+    "id": "EP-021",
+    "topic": "Explain the concept of fluid viscosity in a hydraulic system",
+    "scenario": "To a new operator complaining about slow machine startup in winter",
+    "timeLimit": 45,
+    "keyPoints": ["Temperature dependence", "Internal friction", "Pump cavitation risk", "Warm-up period"],
+    "samplePitch": "The hydraulic fluid is essentially the machine's blood. In the winter, when the shop is freezing, the oil gets thick—its viscosity goes up. It’s like trying to suck molasses through a straw. If you push the machine to full speed immediately, the pump can't pull that thick oil in fast enough, creating a vacuum that causes destructive cavitation. We have to let the system idle for 15 minutes to warm the oil, dropping its viscosity back to a watery consistency so it flows smoothly and safely through the valves."
+  },
+  {
+    "id": "EP-022",
+    "topic": "Pitch an automated optical inspection (AOI) system",
+    "scenario": "To the Quality Assurance Director",
+    "timeLimit": 45,
+    "keyPoints": ["Human error", "Speed", "Data logging", "100% inspection"],
+    "samplePitch": "Our human inspectors are excellent, but looking at 500 identical circuit boards a day leads to fatigue, and they are currently catching about 85% of missing components. An Automated Optical Inspection system uses high-res cameras and machine vision to check every single board in seconds with 99.9% accuracy. Not only does it guarantee we stop shipping defective units to customers, but it logs exact defect types and locations, giving us the real-time data we need to fix the root cause at the pick-and-place machine upstream."
+  },
+  {
+    "id": "EP-023",
+    "topic": "Explain a water hammer effect and how to fix it",
+    "scenario": "To a facilities manager dealing with banging pipes",
+    "timeLimit": 45,
+    "keyPoints": ["Momentum", "Incompressible fluid", "Shock wave", "Accumulators"],
+    "samplePitch": "That loud bang when the large washing valves snap shut is called water hammer. Water is heavy and basically incompressible. When hundreds of gallons are flowing and you suddenly slam a valve closed, all that moving momentum has nowhere to go. It creates a massive pressure shockwave that bounces back through the pipes, which will eventually blow apart our joints. We need to install a water hammer arrestor—essentially a pneumatic shock absorber—right before the valve to cushion that kinetic energy when it closes."
+  },
+  {
+    "id": "EP-024",
+    "topic": "Justify replacing a standard V-belt with a synchronous timing belt",
+    "scenario": "To a maintenance supervisor who prefers cheap belts",
+    "timeLimit": 45,
+    "keyPoints": ["No slip", "Efficiency", "Tensioning maintenance", "Precise timing"],
+    "samplePitch": "V-belts are cheap, but they rely entirely on friction, meaning they stretch and slip. On this indexing conveyor, that 2% slip throws off the synchronization with the packaging robot, causing crashes. By switching to a synchronous timing belt with teeth, we guarantee a 1:1 drive ratio with zero slip. Yes, the pulleys and belt cost more upfront, but it requires much lower tension, saving our motor bearings, and completely eliminates the weekly retensioning maintenance you're currently doing."
+  },
+  {
+    "id": "EP-025",
+    "topic": "Explain why carbon fiber composites aren't always the best choice",
+    "scenario": "To a CEO who read an article about 'advanced materials'",
+    "timeLimit": 45,
+    "keyPoints": ["Anisotropy", "Impact resistance", "Manufacturing cost", "Yield vs fracture"],
+    "samplePitch": "Carbon fiber is incredibly strong and light in the direction of the fibers, but it is highly anisotropic and brittle. For the main chassis of our off-road vehicle, it's actually the wrong choice. When aluminum takes a rock strike, it dents and yields, absorbing the energy. When carbon fiber takes that same impact, it shatters catastrophically. Combined with the fact that laying up composites will increase our manufacturing cycle time from 10 minutes to 4 hours per part, high-strength aluminum remains the safer, more economical choice for this specific application."
+  },
+  {
+    "id": "EP-026",
+    "topic": "Pitch standardizing fasteners across a product line",
+    "scenario": "To the mechanical design team",
+    "timeLimit": 45,
+    "keyPoints": ["BOM simplification", "Assembly time", "Tool changes", "Bulk purchasing"],
+    "samplePitch": "Our current product uses 14 different types of screws—different lengths, thread pitches, and drive types. This forces the assembly line to constantly swap tools and increases the chance of putting the wrong screw in the wrong hole. If we slightly tweak the housing designs, we can standardize the entire product to just two Torx head screws. We'll simplify the bill of materials, secure bulk-purchasing discounts, eliminate three tool stations on the line, and cut our assembly time by nearly 15%."
+  },
+  {
+    "id": "EP-027",
+    "topic": "Defend the use of a stepper motor over a servo motor",
+    "scenario": "To a controls engineer who wants closed-loop everything",
+    "timeLimit": 45,
+    "keyPoints": ["Cost", "Holding torque", "Simplicity", "Predictable load"],
+    "samplePitch": "I know a closed-loop servo gives us absolute position feedback, but for the peristaltic dosing pump, it's overkill and triples the cost of the axis. The load is highly predictable, and the speeds are very low. A stepper motor gives us excellent holding torque at zero RPM and precise discrete steps without needing a complex encoder and tuning loop. As long as we size the stepper with a 50% torque margin to prevent missed steps, we get the exact volumetric accuracy we need for a fraction of the cost."
+  },
+  {
+    "id": "EP-028",
+    "topic": "Explain the concept of galvanic corrosion",
+    "scenario": "To an architect wanting to use brass fixtures on an aluminum frame",
+    "timeLimit": 45,
+    "keyPoints": ["Dissimilar metals", "Electrolyte", "Anode/Cathode", "Isolation"],
+    "samplePitch": "We cannot bolt those decorative brass fixtures directly to the structural aluminum frame outdoors. Brass and aluminum are far apart on the galvanic scale. When rainwater hits them, it acts as an electrolyte, turning the entire assembly into a weak battery. The aluminum acts as the anode and will aggressively sacrifice itself to protect the brass. Within a year, the structural aluminum around the bolts will literally dissolve into white powder. We must either switch to anodized aluminum fixtures or use thick plastic isolation washers and sleeves to break the electrical connection."
+  },
+  {
+    "id": "EP-029",
+    "topic": "Propose an ergonomics review of an assembly station",
+    "scenario": "To the Plant Safety Officer",
+    "timeLimit": 45,
+    "keyPoints": ["Repetitive strain", "Reach distances", "Force required", "Productivity"],
+    "samplePitch": "Station 4 requires operators to reach across a 30-inch bench and apply 40 pounds of downward force to seat the main seal, 200 times a shift. We've already had two reports of shoulder pain this month. This isn't just a safety liability; the fatigue means seal failures spike during the last two hours of the shift. I'm proposing a $2,000 budget to install an articulating arbor press and a tilted fixture. It removes the ergonomic strain entirely, protects our workers, and will pay for itself in reduced scrap in just one month."
+  },
+  {
+    "id": "EP-030",
+    "topic": "Explain the benefit of a digital twin",
+    "scenario": "To an operations director looking to optimize a factory line",
+    "timeLimit": 45,
+    "keyPoints": ["Simulation", "Bottleneck identification", "Risk-free testing", "Real-time data"],
+    "samplePitch": "Right now, if we want to test whether adding a buffer conveyor will increase our throughput, we have to spend $20k to build it and hope it works. By creating a digital twin—a fully functional software model of our factory tied to our real-time sensor data—we can simulate that change virtually. We can run a year’s worth of production scenarios in ten minutes, identifying exactly where the bottlenecks will move. It allows us to make million-dollar CapEx decisions with total mathematical certainty before we ever turn a wrench."
+  }
+]

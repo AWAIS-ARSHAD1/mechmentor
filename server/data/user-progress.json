@@ -1,0 +1,100 @@
+{
+  "userId": "default",
+  "subjects": {
+    "Fluid Mechanics": {
+      "totalAttempts": 8,
+      "correctAnswers": 1,
+      "masteryScore": 28,
+      "lastPracticed": "2026-07-29T18:51:58.345Z",
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 1.3,
+        "nextReview": "2026-07-30",
+        "repetitions": 0
+      }
+    },
+    "Machine Design": {
+      "totalAttempts": 2,
+      "correctAnswers": 0,
+      "masteryScore": 20,
+      "lastPracticed": "2026-07-29T17:10:54.338Z",
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 1.3800000000000001,
+        "nextReview": "2026-07-30",
+        "repetitions": 0
+      }
+    },
+    "Solid Mechanics": {
+      "totalAttempts": 0,
+      "correctAnswers": 0,
+      "masteryScore": 0,
+      "lastPracticed": null,
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReview": null,
+        "repetitions": 0
+      }
+    },
+    "Mechatronics": {
+      "totalAttempts": 0,
+      "correctAnswers": 0,
+      "masteryScore": 0,
+      "lastPracticed": null,
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReview": null,
+        "repetitions": 0
+      }
+    },
+    "Calculus": {
+      "totalAttempts": 1,
+      "correctAnswers": 0,
+      "masteryScore": 20,
+      "lastPracticed": "2026-07-29T19:02:15.332Z",
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 1.96,
+        "nextReview": "2026-07-30",
+        "repetitions": 0
+      }
+    },
+    "Manufacturing": {
+      "totalAttempts": 1,
+      "correctAnswers": 0,
+      "masteryScore": 0,
+      "lastPracticed": "2026-07-28T10:05:18.977Z",
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 1.7000000000000002,
+        "nextReview": "2026-07-29",
+        "repetitions": 0
+      }
+    },
+    "Plant Floor Troubleshooting": {
+      "totalAttempts": 0,
+      "correctAnswers": 0,
+      "masteryScore": 0,
+      "lastPracticed": null,
+      "weakTopics": [],
+      "spacedRepetition": {
+        "interval": 1,
+        "easeFactor": 2.5,
+        "nextReview": null,
+        "repetitions": 0
+      }
+    }
+  },
+  "history": [],
+  "dailyDrillsDue": 0,
+  "streakDays": 0,
+  "lastActive": "2026-07-29T19:02:15.335Z"
+}

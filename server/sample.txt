@@ -1,0 +1,3 @@
+Sample Engineering Document
+Stress-strain curves are essential for understanding material properties.
+Yield strength, ultimate tensile strength, and fracture point are key features.
